@@ -1,0 +1,102 @@
+/* Tema claro (predeterminado) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/ia_edit.png);
+    color: #ffffff;
+}
+
+header 
+{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer 
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #9370db;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#categories {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #9470db65
+}
+
+.category:hover {
+    transform: scale(0.90); 
+}
+
+.category-title {
+    background-color: #9370db; /* Morado oscuro */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0; 
+}
+
+.category-content {
+    display: none;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.info {
+    display: none;
+}
+
+.ventajas {
+    display: block; /*  Ventajas en el tema claro */
+}
+
+
+
+
+
+
+/* Tema oscuro */
+.dark-theme {
+    background-color: #14adad; 
+    color: #f0f0f0;
+}
+
+.dark-theme .category-title {
+    background-color: #14adad; 
+}
+
+.dark-theme .category {
+    background-color: #14adad44; 
+}
+
+.dark-theme .ventajas {
+    display: none; /
+}
+
+.dark-theme .desventajas {
+    display: block; /* Mostrar desventajas en el tema oscuro */
+}
+
+.dark-theme footer {
+    background-color: #14adad;
+}
